@@ -312,10 +312,10 @@ body {
 }
 .grid-sizer,
 .grid-item {
-  width: 23.5%;
+  width: 25%;
 }
 .grid-item {
-  margin-bottom: 2%;
+  padding: 5px;
 }
 .grid-item img {
   box-sizing: border-box;
@@ -327,7 +327,7 @@ body {
   /* centers the image */
 }
 .gutter-sizer {
-  width: 2%;
+  width: 0;
 }
 .btn-read-more {
   color: #fff !important;
@@ -471,10 +471,10 @@ body {
   text-align: center;
 }
 .single-post p {
-  font-size: 1em;
+  font-size: 1.2em;
 }
 ul.tags {
-  padding: o;
+  padding: 0;
   margin: 0;
   list-style-type: none;
 }
@@ -484,19 +484,19 @@ ul.tags > li {
 @media (max-width: 1200px) {
   .grid-sizer,
   .grid-item {
-    width: 32%;
+    width: 33.3%;
   }
   .gutter-sizer {
-    width: 3%;
+    width: 0;
   }
 }
 @media (max-width: 992px) {
   .grid-sizer,
   .grid-item {
-    width: 47%;
+    width: 50%;
   }
   .gutter-sizer {
-    width: 6%;
+    width: 0;
   }
 }
 @media (max-width: 540px) {
@@ -505,6 +505,6 @@ ul.tags > li {
     width: 100%;
   }
   .grid-item {
-    margin-bottom: 15px;
+    margin-bottom: 5px;
   }
 }
